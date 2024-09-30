@@ -11,7 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+      },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };
